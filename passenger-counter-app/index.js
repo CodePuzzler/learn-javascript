@@ -1,4 +1,5 @@
 let countEL = document.getElementById('count-el')
+let saveEL = document.getElementById('save-el')
 
 // var to store total passenger count
 let count = 0
@@ -7,10 +8,11 @@ let count = 0
 // console.log(count)
 
 function increment() {
-  count = count + 1
+  count += 1
   countEL.innerHTML = count
 }
 
 function save() {
-  console.log(count)
+  let countSTR = count + ' - '
+  saveEL.textContent += countSTR
 }

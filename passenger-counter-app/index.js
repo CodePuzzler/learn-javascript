@@ -7,5 +7,6 @@ let count = 0
 // console.log(count)
 
 function increment() {
-  console.log('incrementing')
+  count = count + 1
+  console.log(count)
 }

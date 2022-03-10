@@ -4,4 +4,8 @@
 let count = 0
 
 // use console.log to debug using browser console
-console.log(count)
+// console.log(count)
+
+function increment() {
+  console.log('incrementing')
+}

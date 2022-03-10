@@ -10,3 +10,7 @@ function increment() {
   count = count + 1
   countEL.innerHTML = count
 }
+
+function save() {
+  console.log(count)
+}
